@@ -1,13 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
+import Editor from "./components/editor/Editor";
+import Cv from "./components/cv/Cv";
 
 function App() {
   return (
     <>
-      <h1>app</h1>
+      <div className="page">
+        <Editor />
+        <Cv />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

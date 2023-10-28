@@ -1,0 +1,101 @@
+.cv {
+  max-width: 700px;
+  padding: 1.5rem;
+  background: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 1rem;
+}
+
+header h1.name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+header h3.profession {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+header ul {
+  list-style: none;
+  text-align: right;
+}
+header ul li {
+  font-size: 14px;
+}
+
+header ul address {
+  display: inline;
+}
+
+p {
+  text-align: justify;
+}
+
+.cv section,
+section div {
+  /*   background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 5px;
+}
+
+section h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+section p,
+section ul {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+section .muted {
+  color: #636262;
+}
+
+section span {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -5px;
+}
+
+section ul {
+  list-style: none;
+}
+
+/* section div {
+  display: flex;
+  flex-direction: column;
+}
+ */
+.skills ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills ul li {
+  padding: 6px 12px;
+  border-radius: 50px;
+  text-align: center;
+  background: #b4b4b4;
+}
