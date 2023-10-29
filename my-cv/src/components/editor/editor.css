@@ -1,4 +1,6 @@
 .editor {
-  min-width: 600px;
+  width: 40%;
+  max-width: 500px;
+  padding: 2rem 1.5rem;
   background: #fff;
 }

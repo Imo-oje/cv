@@ -63,22 +63,37 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
- */
 .page {
   display: flex;
   color: black;
   justify-content: space-around;
   height: auto;
+  gap: 3%;
+}
+
+.mobile-editor {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .cv {
+    width: 100%;
+  }
+
+  .editor {
+    width: 100%;
+    max-width: none;
+  }
+
+  .editor .desktop-editor {
+    display: none;
+  }
+
+  .editor .mobile-editor {
+    display: block;
+  }
 }

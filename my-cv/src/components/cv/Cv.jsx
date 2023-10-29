@@ -15,7 +15,7 @@ function Cv() {
             <li className="phone">Website: www.mycv.com</li>
             <li className="phone">LinkedIn: linkedin.com/mycv</li>
             <li className="phone">
-              Address: <address>1287 Marshville Road, Alabama</address>
+              Location: <address>Texas, United States</address>
             </li>
           </ul>
         </header>
